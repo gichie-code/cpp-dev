@@ -31,7 +31,8 @@ docker compose build
 ### コンパイルと実行
 
 ```bash
-docker compose run --rm cpp-dev sh -c "g++ src/main.cpp -o main && ./main"
+cd src
+docker compose run --rm cpp-dev sh -c "g++ main.cpp -o main && ./main"
 ```
 
 ## ライセンス
