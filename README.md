@@ -5,12 +5,12 @@
 ## 構成
 
 ```
-cpp-dev/  
-├── Dockerfile  
-├── docker-compose.yml  
-├── .dockerignore  
-├── .gitignore  
-└── src/  
+cpp-dev/
+├── Dockerfile
+├── docker-compose.yml
+├── .dockerignore
+├── .gitignore
+└── src/
     └── main.cpp
 ```
 
