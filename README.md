@@ -4,6 +4,16 @@
 
 ## 構成
 
+```
+cpp-dev/  
+├── Dockerfile  
+├── docker-compose.yml  
+├── .dockerignore  
+├── .gitignore  
+└── src/  
+    └── main.cpp
+```
+
 - `Dockerfile`: 開発用の C++ コンテナを定義
 - `docker-compose.yml`: コンテナを簡単に起動するための構成ファイル
 - `src/`: 開発用のソースコードディレクトリ

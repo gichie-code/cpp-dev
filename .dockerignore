@@ -1,4 +1,16 @@
+# 不要な一時ファイルやバイナリを除外
+*.o
+main
+*.out
+
+# OS依存の一時ファイル
+.DS_Store
+Thumbs.db
+
+# Git情報は含めない
+.git
+.gitignore
+
+# エディタ・IDEの設定
 .vscode/
 *.swp
-*.o
-a.out

@@ -1,4 +1,12 @@
+# ビルド成果物
+*.o
+main
+*.out
+
+# OS依存の一時ファイル
+.DS_Store
+Thumbs.db
+
+# エディタやIDEの設定
 .vscode/
 *.swp
-*.o
-a.out
